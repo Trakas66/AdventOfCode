@@ -1,5 +1,6 @@
 file = open(r'../day1.txt')
 input = file.readlines()
+file.close()
 list1, list2 = [], {}
 
 for line in input:
